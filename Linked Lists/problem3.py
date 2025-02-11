@@ -28,7 +28,7 @@ def merge_sorted_lists(l1, l2):
 
 def print_list(head):
     while head:
-        print(head.data, end=" → ")
+        print(head.data, end=" -> ")
         head = head.next
     print("None")
 
